@@ -1,0 +1,20 @@
+versions:
+  - name: "3.0"
+    source:
+      provider: git
+      url: https://github.com/GlitchyPSIX/m64mm-docs.git
+      checkout: "3.0"
+    directory: docs
+    title: M64MM3
+    notice: unstable
+    warning: This version is in experimental alpha.
+
+  - name: "2.1"
+    source:
+      provider: git
+      url: https://github.com/GlitchyPSIX/m64mm-docs.git
+      checkout: "2.1"
+    directory: docs
+    title: M64MM2.1
+    notice: null
+    warning: null
