@@ -7,10 +7,15 @@ REM Command file for Sphinx documentation
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
-set SOURCEDIR=source
-set BUILDDIR=build
+set SOURCEDIR=docs
+set BUILDDIR3=build_30
+set BUILDDIR2=build_21
 
 if "%1" == "" goto help
+
+if "%2" == "" goto versionerr
+
+goto %2
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
@@ -25,8 +30,22 @@ if errorlevel 9009 (
 	exit /b 1
 )
 
-%SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+:3
+git checkout 3.0
+echo Building documentation for the M64MM3 branch
+%SPHINXBUILD% -M %1 -c %SOURCEDIR%\singleconf %SOURCEDIR% %BUILDDIR3% %SPHINXOPTS% %O%
 goto end
+
+:2
+git checkout 2.1
+echo Building documentation for the M64MM2 branch
+%SPHINXBUILD% -M %1 -c %SOURCEDIR%\singleconf %SOURCEDIR% %BUILDDIR2% %SPHINXOPTS% %O%
+goto end
+
+:versionerr
+echo You forgot to specify which local branch to build
+echo Defaulting to 2.1...
+goto 2
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
