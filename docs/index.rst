@@ -10,6 +10,9 @@ Please note that this is a *work in progress*! The document structure right now 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   ui/index.rst
+
 
 
 
@@ -17,5 +20,4 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
