@@ -9,11 +9,18 @@ Please note that this is a *work in progress*! The document structure right now 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   
+   :caption: Beginner:
+
+   installation.rst
    ui/index.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Intermediate:
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Advanced:
 
 
 Indices and tables
