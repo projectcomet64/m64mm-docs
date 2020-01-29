@@ -2,3 +2,11 @@
 /docs/_build/
 /build_21
 /build_30
+/build
+.vscode/settings.json
+docs/.vscode/settings.json
+docs/singleconf/doctrees/index.doctree
+docs/singleconf/doctrees/installation.doctree
+docs/singleconf/doctrees/environment.pickle
+docs/singleconf/doctrees/ui/index.doctree
+docs/singleconf/doctrees/ui/overview.doctree

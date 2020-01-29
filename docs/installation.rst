@@ -17,7 +17,7 @@ Requirements
 Installation
 ############
 
-Download the latest release .zip named **M64MM2-v2.1.1.zip** from `here <http://github.com/jpmac26/M64MM2>`_ (M64MM2.1 Legacy)
+Download the latest release .zip named **M64MM2-v2.1.1.zip** from `here <http://github.com/jpmac26/M64MM2/releases/latest>`_ (M64MM2.1 Legacy)
     
 #. Extract the .zip file to a folder of your choice, using your favorite archiver, such as **WinRAR**. If you do not have an archiver, you can use the free software `7-Zip <http://7zip.org>`_ to extract it.
     

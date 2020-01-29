@@ -5,7 +5,8 @@
 
 Welcome to M64MM's documentation!
 =================================
-Please note that this is a *work in progress*! The document structure right now is very barebones. Changes in the form of pull requests will be reviewed and accepted once the site is online and accessible to everyone.
+Please note: this is a *work in progress*!
+The document structure right now is very barebones.
 
 .. toctree::
    :maxdepth: 2
