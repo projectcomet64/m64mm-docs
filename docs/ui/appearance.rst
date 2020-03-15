@@ -43,7 +43,7 @@ This button allows you to paste in a color code to load it in the game as if it 
 
 .. warning:: Only color codes. Any other kind of Gameshark will not be read by M64MM.
 
-.. note:: M64MM will ask you if you wish to set these colors as default colors when you load a new color code this way. Agreeing to do this will change which color code the button "Reset Colors" will apply.
+.. note:: M64MM will ask you if you wish to set these colors as default colors when you load a new color code this way. Agreeing to do this will change which color code the button "Reset Colors" will apply. Do note that this will remain the "default colors" while M64MM is open. Once you close it, the default colors turn to be Mario's again.
 
 * **Export Color Code**
 
