@@ -11,7 +11,7 @@ The document structure right now is very barebones.
 .. toctree::
    :maxdepth: 2
    :caption: Beginner:
-
+   
    installation.rst
    ui/index.rst
 

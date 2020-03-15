@@ -110,5 +110,3 @@ Menu Strip
     * **About**
 
         Shows information about the program and some credits.
-
-    The next section of this manual has an emphasis on the "Tools" menu item.
