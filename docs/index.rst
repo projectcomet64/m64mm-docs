@@ -5,8 +5,9 @@
 
 Welcome to M64MM's documentation!
 =================================
-Please note: this is a *work in progress*!
-The document structure right now is very barebones.
+This documentation will be changing as features get added. For now, documentation only exists for M64MM2.x. Some of the documentation also applies to M64MM3.x, but will be added later.
+
+This documentation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license. For more information, see `this link. <https://creativecommons.org/licenses/by-sa/4.0/>`_
 
 .. toctree::
    :maxdepth: 2
@@ -14,18 +15,14 @@ The document structure right now is very barebones.
    
    installation.rst
    ui/index.rst
+   troubleshooting/index.rst
 
 .. toctree::
    :maxdepth: 2
    :caption: Intermediate:
+   
+   intermediate_tips/index.rst
 
 .. toctree::
    :maxdepth: 2
    :caption: Advanced:
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`

@@ -10,3 +10,4 @@ docs/singleconf/doctrees/installation.doctree
 docs/singleconf/doctrees/environment.pickle
 docs/singleconf/doctrees/ui/index.doctree
 docs/singleconf/doctrees/ui/overview.doctree
+*.doctree

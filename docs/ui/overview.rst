@@ -18,7 +18,7 @@ Camera controls
 
             This will freeze the camera and not allow the angle to be moved.
 
-            .. warning:: This breaks in some levels, like Bob-Omb Battlefield. There is a workaround to this which can be found here.
+            .. warning:: This breaks in some levels, like Bob-Omb Battlefield. There is a workaround to this which can be found in :ref:`this page. <zoom-out-workaround>`
 
         * **Unfreeze (CTRL+2)**
 
