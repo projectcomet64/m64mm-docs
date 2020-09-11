@@ -16,6 +16,6 @@ You can follow this repository to be informed about which elements are properly 
 Prior to building in any way, you must have local branches for both 3.0 and 2.1.
 `sphinx-multiversion` will fetch from `origin` and 2.1 should be used as reference.
 
-Use `sphinx-multiversion build docs build/html` to build the versioned variants of the documentation, including the version selector link.
+Use `sphinx-multiversion docs build/html` to build the versioned variants of the documentation, including the version selector link.
 
 Use `sphinx-build build docs build/html` to build the currently checked out version.
