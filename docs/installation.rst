@@ -18,7 +18,7 @@ Requirements
 Installation
 ############
 
-Download the latest release .zip named similar to **M64MM3.7z** from `here <http://github.com/projectcomet64/M64MM3/releases/latest>`_ (M64MM3 Classic)
+Download the latest release .zip named similar to **M64MM3.7z** from `here <http://github.com/projectcomet64/M64MM/releases/latest>`_ (M64MM3 Classic)
     
 #. Extract the .7z file to a folder of your choice, using your favorite archiver, such as **WinRAR**. If you do not have an archiver, you can use the free software `7-Zip <http://7zip.org>`_ to extract it.
     
