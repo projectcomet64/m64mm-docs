@@ -10,5 +10,5 @@ This section of the manual will go in depth about the UIs you can find in M64MM.
    overview.rst
    tools.rst
    settings.rst
-   about.rst
+   help.rst
    

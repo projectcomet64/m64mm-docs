@@ -29,7 +29,7 @@ master_doc = 'index'
 # -- Project information -----------------------------------------------------
 
 project = 'M64MM'
-copyright = '2019-2020, GlitchyPSI'
+copyright = '2019-2022, GlitchyPSI'
 author = 'GlitchyPSI'
 
 # The full version, including alpha/beta/rc tags

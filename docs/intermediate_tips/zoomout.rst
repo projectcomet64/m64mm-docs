@@ -1,15 +1,18 @@
 .. _zoom-out-workaround:
 
-Freeze Button Zoom-Out Workaround
+Freeze Toggle Zoom-Out Workaround
 ==================================
 
-Since M64MM uses the internal Pause Camera from the game, some levels such as Bob-Omb Battlefield will appear zoomed out. Below is an example.
+Since M64MM uses the internal Pause Camera from the game, some levels such as
+Bob-Omb Battlefield will appear zoomed out. Below is an example.
 
 .. image::
 	 zoom_out.png
    :width: 640px
 
-To work around this, before entering an area or level where the camera zooms out, press the Freeze button, enter the level, and then unfreeze. After this, the camera will not move like it used to do in the original level, but will allow for freezing the camera normally. Note that it's not permanent, and you must do this every time you enter a level with the zoom-out problem.
+To work around this, enable Powercam before the game starts or in an area that is not
+affected by this issue. After this, the camera will not move like it used to do in
+the original level, but will allow for freezing the camera normally.
 
 The following is a list of levels affected by this:
 
