@@ -4,7 +4,8 @@ M64MM Installation and usage
 Requirements
 ############
 
-* `Project64 1.6 for Windows <https://www.pj64-emu.com>`_ or higher
+* `Project64 1.6 for Windows <https://www.pj64-emu.com>`_ or greater
+    * It is recommended to use Project64 2.0 or greater.
 
 * 64 Marios (must be Super)
 
@@ -12,35 +13,41 @@ Requirements
 
      We cannot provide a link to the 64 Marios.
     
-* `.NET Framework 4.5.2 <https://dotnet.microsoft.com/download/dotnet-framework>`_ at the very least.
+* `.NET Framework 4.6.1 <https://dotnet.microsoft.com/download/dotnet-framework>`_ at the very least.
 
 Installation
 ############
 
-Download the latest release .zip named **M64MM2-v2.1.1.zip** from `here <http://github.com/jpmac26/M64MM2/releases/latest>`_ (M64MM2.1 Legacy)
+Download the latest release .zip named similar to **M64MM3.7z** from `here <http://github.com/projectcomet64/M64MM3/releases/latest>`_ (M64MM3 Classic)
     
-#. Extract the .zip file to a folder of your choice, using your favorite archiver, such as **WinRAR**. If you do not have an archiver, you can use the free software `7-Zip <http://7zip.org>`_ to extract it.
+#. Extract the .7z file to a folder of your choice, using your favorite archiver, such as **WinRAR**. If you do not have an archiver, you can use the free software `7-Zip <http://7zip.org>`_ to extract it.
     
-    * **MAKE SURE** to extract ALL contents of the zip folder. The extracted files should be this:
+    * **MAKE SURE** to extract ALL contents of the zip folder. The extracted files should be like this:
 
-     * **es** (Folder)
+     * **Addons** (Folder)
+     * **Colorcodes** (Folder)
      * animation_data.txt
      * camera_data.txt
-     * M64MM2.exe
+     * M64MM.Utils.dll
+     * M64MM.Addon.dll
+     * Newtonsoft.Json.dll
+     * M64MM3.exe
     
-    The ES folder can be deleted if you do not want M64MM2 translated to Spanish if your system locale is ES.
+    There are folders such as ``es``, ``zh-Hans``, ``zh-CN`` and similar. These folders contain a single ``M64MM.Resources.dll`` which signify that they are a translation for the main UI of the program. These can be safely deleted if you wish to only use the program in English.
     
-    .. note:: It is recommended that you do not extract M64MM2 in ``Program Files``. Unexpected behavior might occur if you do this.
+    .. note:: It is recommended that you do not extract M64MM in ``Program Files``. Unexpected behavior might occur if you do this.
 
-    .. warning:: If ``animation_data.txt`` is not next to ``M64MM2.exe``, you will not be able to swap animations in-game!
+    .. warning:: If ``animation_data.txt`` is not next to ``M64MM3.exe``, you will not be able to swap animations in-game!
     
-    .. warning:: If ``camera_data.txt`` is not next to ``M64MM2.exe``, you will not be able to change camera styles in-game!
+    .. warning:: If ``camera_data.txt`` is not next to ``M64MM3.exe``, you will not be able to change camera styles in-game!
 
-That's it. You can open ``M64MM2.exe`` to start it.
+    .. warning:: If the folder ``Addons`` is not next to ``M64MM3.exe``, M64MM will scold you slightly since you're supposed to extract everything.
+
+That's it. You can open ``M64MM3.exe`` to start it.
 
 Usage
 ############
 
-M64MM2 works only when Project64 is open, ``Super Mario 64 (U) [!].z64`` is running, and Mario is inside a level (Any level).
+M64MM works only when Project64 is open, ``Super Mario 64 (U) [!].z64`` is running, and Mario is inside a level (Any level).
 
-.. warning:: **Neither M64MM2 or Project64 should be running as Administrator.** Unexpected behavior can happen if any of them is running as administrator.
+.. warning:: **Neither M64MM3 nor Project64 should be running as Administrator.** Unexpected behavior can happen if any of them is running as administrator. M64MM3 Beta 1 and onwards will yell at you when you are using PJ64 as administrator.

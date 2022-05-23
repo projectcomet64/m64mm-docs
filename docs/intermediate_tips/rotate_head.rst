@@ -1,3 +1,5 @@
+.. _rotate-head:
+
 Mario's Head Can Move In Any Animation!
 ===================================================
 

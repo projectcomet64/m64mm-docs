@@ -5,7 +5,7 @@
 
 Welcome to M64MM's documentation!
 =================================
-This documentation will be changing as features get added. For now, documentation only exists for M64MM2.x. Some of the documentation also applies to M64MM3.x, but will be added later.
+This documentation will be changing as features get added.
 
 This documentation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license. For more information, see `this link. <https://creativecommons.org/licenses/by-sa/4.0/>`_
 
