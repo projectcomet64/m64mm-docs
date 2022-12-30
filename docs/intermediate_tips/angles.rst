@@ -62,4 +62,4 @@ the camera however you wish, and then press Freeze to lock the angle.
    soft_frozen_rotate.gif
    :width: 480px
 
-.. tip:: Hey, why don't you try METAL Orchestrator, the fully free camera Addon?
+.. tip:: Hey, why don't you try METAL Orchestrator, the fully-free camera Addon?

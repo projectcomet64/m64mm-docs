@@ -13,7 +13,7 @@ Requirements
 
      We cannot provide a link to the 64 Marios.
     
-* `.NET Framework 4.6.1 <https://dotnet.microsoft.com/download/dotnet-framework>`_ at the very least.
+* `.NET Framework 4.7.2 <https://dotnet.microsoft.com/download/dotnet-framework>`_ at the very least.
 
 Installation
 ############
@@ -26,16 +26,20 @@ Download the latest release .zip named similar to **M64MM3.7z** from `here <http
 
      * **Addons** (Folder)
      * **Colorcodes** (Folder)
+     * **deps** (Folder)
      * animation_data.txt
      * camera_data.txt
      * M64MM.Utils.dll
      * M64MM.Addon.dll
      * Newtonsoft.Json.dll
      * M64MM3.exe
+     * M64MM3.exe.config
     
     There are folders such as ``es``, ``zh-Hans``, ``zh-CN`` and similar. These folders contain a single ``M64MM.Resources.dll`` which signify that they are a translation for the main UI of the program. These can be safely deleted if you wish to only use the program in English.
     
-    .. note:: It is recommended that you do not extract M64MM in ``Program Files``. Unexpected behavior might occur if you do this.
+    The ``deps`` folder is meant for Addons that have libraries (such as *METAL Orchestrator*, which uses the library Keyshift) that are not bundled in with M64MM. **Do not delete this folder!**
+
+    .. note:: It is recommended that you do not extract M64MM in ``Program Files``. Unexpected behavior might occur if you do this. **You should never need to run M64MM as Administrator!**
 
     .. warning:: If ``animation_data.txt`` is not next to ``M64MM3.exe``, you will not be able to swap animations in-game!
     
@@ -43,11 +47,13 @@ Download the latest release .zip named similar to **M64MM3.7z** from `here <http
 
     .. warning:: If the folder ``Addons`` is not next to ``M64MM3.exe``, M64MM will scold you slightly since you're supposed to extract everything.
 
+    .. warning:: If the file ``M64MM3.exe.config`` is not present next to ``M64MM3.exe``, some addons may just not work! This config file has information related to where M64MM will look for dependencies for addons.
+
 That's it. You can open ``M64MM3.exe`` to start it.
 
 Usage
 ############
 
-M64MM works only when Project64 is open, ``Super Mario 64 (U) [!].z64`` is running, and Mario is inside a level (Any level).
+M64MM works only when Project64 is open, ``Super Mario 64 (U) [!].z64`` (or any ROM Hack based on this ROM) is running, and Mario is inside a level (Any level).
 
 .. warning:: **Neither M64MM3 nor Project64 should be running as Administrator.** Unexpected behavior can happen if any of them is running as administrator. M64MM3 Beta 1 and onwards will yell at you when you are using PJ64 as administrator.

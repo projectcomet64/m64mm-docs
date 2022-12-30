@@ -21,7 +21,9 @@ useAnalytics = os.path.isfile("./_analytics")
 analyticsID = ""
 if useAnalytics == True :
     with open("./_analytics") as f: 
+        print("In analytics.")
         analyticsID = f.readlines()[0]  
+        print("Read ID: " + analyticsID)
 
 
 master_doc = 'index'
