@@ -9,18 +9,18 @@ M64MM straight up doesn't start!
 This could be caused by many things. 
 
 * Make sure your Antivirus is not blocking M64MM. Sometimes antivirus software 
-* think M64MM is a virus and send it to quarantine. Google how to remove a file 
-* from your antivirus' quarantine if you suspect this is the case.
+  think M64MM is a virus and send it to quarantine. Google how to remove a file 
+  from your antivirus' quarantine if you suspect this is the case.
 
 * Rightclick the M64MM.exe file and go to Properties. Check if there is an "Unblock" 
-* button. If it's there, click it and click OK. This happens sometimes with programs 
-* downloaded from the Internet.
+  button. If it's there, click it and click OK. This happens sometimes with programs 
+  downloaded from the Internet.
 
 M64MM cannot find base address but my game is open! 
 ###################################################
 
 Make sure you're using a USA (NTSC), non-byteswapped SM64 ROM. Its name is usually
-``Super Mario 64 (U)[!].z64``. (Note it HAS to be Z64.)
+``Super Mario 64 (U)[!].z64``. (Note it HAS to be **Z64**.)
 
 This could also be caused by Project64 being a ghost in the background. See here_
 for a solution to that.
